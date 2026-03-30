@@ -1,0 +1,35 @@
+/* faite par sekou amara bamba */
+/* Ce fichier rassemble les variables CSS globales de l'application (couleurs principales, fonds) et redéfinit l'apparence par défaut de la barre de défilement (scrollbar) du navigateur. */
+/* Toucher par SEKOU AMARA BAMBA */
+:root {
+  --primary-color: #ffeb3b;
+  --bg-dark: #1a1a2e;
+  --text-dark: #333;
+  --text-light: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar personnalise (Toucher par SEKOU AMARA BAMBA) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff176;
+}
+/* Toucher par SEKOU AMARA BAMBA */
